@@ -69,7 +69,7 @@ print 'The value of default measurement of SGDRegressor is ', sgdr.score(
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 print 'The value of R-Squared of SGDRegressor is', r2_score(y_test,
-                                                                sgdr_y_pred)
+                                                            sgdr_y_pred)
 print 'The mean squared error of SGDRegressor is', mean_squared_error(
     ss_y.inverse_transform(y_test), ss_y.inverse_transform(sgdr_y_pred))
 print 'The mean absolute error of SGDRegressor is', mean_absolute_error(
